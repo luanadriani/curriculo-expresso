@@ -10,7 +10,7 @@ app.set('view engine', 'ejs')
 
 app.get('/', function(req, res, next) {
     res.render('index', {
-        title: "Meu primeiro servidor Express 1",
+        title: "Meu primeiro servidor Express",
         version: "0.0.0"
     })
 })

@@ -20,4 +20,4 @@ const curriculo = {
     skills: ['backend', 'frontend', 'mobile']
 }
 
-module.exports = curriculo;
+module.exports = curriculo

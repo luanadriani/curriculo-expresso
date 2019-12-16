@@ -1,33 +1,33 @@
 const CurriculoModel = require('../models/curriculo-model')
 
 exports.getCurriculo = () => {
-    return CurriculoModel;
+    return CurriculoModel
 }
 
 exports.getName = () => {
-    return CurriculoModel.name;
+    return CurriculoModel.name
 }
 
 exports.getTitle = () => {
-    return CurriculoModel.title;
+    return CurriculoModel.title
 }
 
 exports.getProfession = () => {
-    return CurriculoModel.profession;
+    return CurriculoModel.profession
 }
 
 exports.getDescription = () => {
-    return CurriculoModel.description;
+    return CurriculoModel.description
 }
 
 exports.getExperience = () => {
-    return CurriculoModel.experience;
+    return CurriculoModel.experience
 }
 
 exports.getEducation = () => {
-    return CurriculoModel.education;
+    return CurriculoModel.education
 }
 
 exports.getSkills = () => {
-    return CurriculoModel.skills;
+    return CurriculoModel.skills
 }
